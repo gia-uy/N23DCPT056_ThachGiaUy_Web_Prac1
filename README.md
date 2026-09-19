@@ -2,7 +2,7 @@
 
 - **Họ và tên**: Thạch Gia Uy
 - **Mã sinh viên**: N23DCPT056
-- **Lớp / Nhóm**: Nhóm 2
+- **Lớp**: D23CQPTUD01-N
 - **Tên dự án**: Blog Listing Page với NextJS & Tailwind CSS (Phong cách Pastel)
 - **Repository**: [gia-uy/N23DCPT056_ThachGiaUy_Web_Prac1](https://github.com/gia-uy/N23DCPT056_ThachGiaUy_Web_Prac1)
 
