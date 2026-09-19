@@ -31,5 +31,3 @@ npm run dev
 Sau đó mở trình duyệt tại:
 - http://localhost:3000
 
-## Ghi chú
-Dự án này được xây dựng theo yêu cầu thực hành Web buổi 1 với giao diện blog list và detail page theo phong cách pastel.
