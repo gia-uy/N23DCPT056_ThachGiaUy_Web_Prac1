@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# THỰC HÀNH LẬP TRÌNH WEB - BUỔI 1
 
-## Getting Started
+- **Họ và tên**: Thạch Gia Uy
+- **Mã sinh viên**: N23DCPT056
+- **Lớp / Nhóm**: Nhóm 2
+- **Tên dự án**: Blog Listing Page với NextJS & Tailwind CSS (Phong cách Pastel)
+- **Repository**: [gia-uy/N23DCPT056_ThachGiaUy_Web_Prac1](https://github.com/gia-uy/N23DCPT056_ThachGiaUy_Web_Prac1)
 
-First, run the development server:
+## Các chức năng đã hoàn thành
+1. **Trang chủ (`/`)**:
+   - Fetch dữ liệu 12 bài viết đầu tiên từ API `JSONPlaceholder`.
+   - Bố cục Grid Responsive (1 cột trên Mobile, 2 cột trên Tablet, 3 cột trên Desktop).
+   - Thiết kế giao diện tông màu Pastel nhẹ nhàng.
+2. **Trang Chi tiết (`/blog/[id]`)**:
+   - Cấu hình Dynamic Route theo `id`.
+   - Fetch dữ liệu bài viết theo ID từ API.
+   - Có nút **Back to Blog** quay lại trang chủ.
 
+## Công nghệ sử dụng
+- Next.js
+- Tailwind CSS
+- JavaScript
+- API: JSONPlaceholder
+
+## Hướng dẫn chạy
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Sau đó mở trình duyệt tại:
+- http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Ghi chú
+Dự án này được xây dựng theo yêu cầu thực hành Web buổi 1 với giao diện blog list và detail page theo phong cách pastel.
